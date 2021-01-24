@@ -68,7 +68,6 @@ const SearchPage: React.SFC<SearchPageProps> = () => {
         alignItems="center"
         justifyContent="center"
         gridArea="main"
-        overflow="hidden"
     >
         <Flex flexWrap="wrap"
             justifyContent={'left'}
@@ -90,7 +89,6 @@ const SearchPage: React.SFC<SearchPageProps> = () => {
             alignItems="center"
             justifyContent="center"
             gridArea="main"
-            overflow="hidden"
         >
             {data.map((d: any) =>
                 <Tile key={d.avatar_url} href={d.html_url} target="_blank">
