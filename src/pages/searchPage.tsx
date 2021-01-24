@@ -26,9 +26,7 @@ const Tile = styled.a`
       }
 `;
 
-export interface SearchPageProps {
-
-}
+export interface SearchPageProps { }
 
 const SearchPage: React.SFC<SearchPageProps> = () => {
     const [selectedOption, setSelectedoption] = useState<string>('users');

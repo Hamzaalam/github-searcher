@@ -14,9 +14,7 @@ const BottomText = styled.p`
     color: grey;
 `;
 
-export interface SearchHeaderProps {
-
-}
+export interface SearchHeaderProps { }
 const SearchHeader: React.SFC<SearchHeaderProps> = () => {
     return (
         <Flex width="540px" justifyContent="right" alignItems={'center'}>
